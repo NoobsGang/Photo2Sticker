@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
-$tok = "Enter Your Bot Token!!";
-$owner_id = "Enter Your User Id!";
+$tok = getenv("TOKEN");
+$owner_id = getenv("OWNER_ID");
 function botaction($method, $data){
 	global $tok;
 	global $dadel;
