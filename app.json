@@ -17,6 +17,6 @@
          "description": "Admin Id For Making The Sticker Pack!",
          "required": true,
          "value": ""
-		},
+		}
 	}
 }
